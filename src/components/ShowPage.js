@@ -1,11 +1,10 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../coins/coin.css'
-import Stockchart from './Stockchart';
+// import Stockchart from './Stockchart';g
 const ShowPage = ({coins}) => {
 
 const {symbol} = useParams();
-console.log(symbol)
 
 const coinData = coins.map(data => {
   if(data.symbol === symbol){
@@ -29,14 +28,12 @@ const coinData = coins.map(data => {
 })
 
 
-console.log(coins)
-
 
 
   return (
     <div>
       {coinData}
-      {/* <Stockchart /> */}
+      {/* <Stockchart coinData={coins} /> */}
     </div>
   )
 }
