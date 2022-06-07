@@ -1,3 +1,8 @@
+.showDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .coin-container {
     display: flex;
     justify-content: center;
@@ -16,7 +21,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    border-bottom: 1px solid #000000;
+    margin-bottom: .5rem;
     width: 400px;
     background-color: #3bb78f;
     background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
@@ -28,7 +33,7 @@
   padding-left: 20px;
   background-color: transparent;
   border-radius: 10px;
-
+  margin-right: 1rem;
 
 }  
   .coin img {
@@ -48,4 +53,11 @@
 h4{
     background-color: transparent;
 }
-   
+.crypto-data {
+    margin-bottom: .5rem;
+}
+#backBtn{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}

@@ -1,9 +1,9 @@
-import React from 'react'
 import Coin from './Coin'
 import { Link} from 'react-router-dom'
 import './coin.css'
+import LikeButton from '../likeBtn/LikeButton'
 
-const CoinsList = ({filteredCoins, handleChange}) => {
+const CoinsList = ({filteredCoins, handleChange, toggleValueChange, form}) => {
    let coins = filteredCoins.map(coin => {
         return ( 
         <div className='coinDiv'>
@@ -15,6 +15,9 @@ const CoinsList = ({filteredCoins, handleChange}) => {
                 symbol={coin.symbol}
               />
           </Link>
+          <LikeButton />
+
+
       </div>
         )
     })    

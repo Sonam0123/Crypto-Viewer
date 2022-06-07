@@ -1,6 +1,7 @@
 import React from 'react'
 import './coin.css'
-const Coin = ({image, name, symbol,}) => {
+
+const Coin = ({image, name, symbol}) => {
 
   return (
     <div>

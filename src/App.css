@@ -50,3 +50,18 @@ input {
   background-color: #2d3436;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
+button{
+  background-color: #091a87;
+  color: rgb(255, 255, 255);
+  padding: .5rem;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  overflow: hidden;
+}
+.pure-menu{
+  align-items: center;
+}
