@@ -1,0 +1,27 @@
+
+#homeHead{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+#homePage {
+    width: 40%;
+    margin: 0 auto;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    text-align: center;
+    }
+.homeBtn{
+    background-color: #0a8a2a;
+    color: white;
+    padding: 1rem;
+    border: none;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 2rem; 
+    transition-duration: 1s;
+    text-decoration: none;
+    overflow: hidden;
+}
+
