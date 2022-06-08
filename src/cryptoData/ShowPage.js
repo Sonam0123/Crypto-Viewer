@@ -1,11 +1,13 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../coins/coin.css'
-// import Stockchart from './Stockchart';g
+
+
+
+
 const ShowPage = ({coins}) => {
 
 const {symbol} = useParams();
-
 const coinData = coins.map(data => {
   if(data.symbol === symbol){
   return(
@@ -17,23 +19,31 @@ const coinData = coins.map(data => {
       <p className='crypto-data'>Market Capacity: ${data.market_cap.toLocaleString()}</p>
       <p className='crypto-data'>Circulating Supply: ${data.circulating_supply.toLocaleString()}</p>
       <p className='crypto-data'>Total Volume: {data.total_volume.toLocaleString()}</p>
+      <p>Price: ${data.current_price.toLocaleString()}</p>
       <p id='backBtn'>
-      <Link to='/coin-list' style={{ textDecoration: 'none' }}>
-        <button>Back</button>
-      </Link>
+        <div className='butt-flexw'>
+        <div className='butt'>
+            <Link to='/coin-list' style={{ textDecoration: 'none' }}
+            >
+              <div className='bootyP'>
+             <button>Back</button>
+             </div>
+           </Link>
+      </div>
+      <div className='coinChart'>
+      <coingecko-coin-price-chart-widget  coin-id={`${data.id}`} currency="usd" height="300"   locale="en"></coingecko-coin-price-chart-widget>
+      </div>
+      </div>
+      
       </p>
     </div>
   )
   }
 })
-
-
-
-
   return (
     <div>
       {coinData}
-      {/* <Stockchart coinData={coins} /> */}
+
     </div>
   )
 }

@@ -6,7 +6,9 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   background-color: black;
-  color: #fff;
+  color: rgb(255, 255, 255);
+  overflow-x:hidden
+
 }
 .App{
   display: flex;
@@ -15,6 +17,13 @@
   margin-top: 64px;
   color: #fff;
 }
+/* #dropdown{
+  position:relative
+
+}
+.pure-menu-link{
+  position:relative
+} */
 #nav{
   padding-bottom: 30px;
   padding-left: 100px;
@@ -47,7 +56,7 @@ input {
   height: 35px;
   border-radius: 4px;
   border-color: rgb(136, 179, 93);
-  background-color: #2d3436;
+  background-color: #1f3127;
   background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
 }
 button{
@@ -64,4 +73,8 @@ button{
 }
 .pure-menu{
   align-items: center;
+}
+
+#homeHead{
+  margin-top: 1rem;
 }

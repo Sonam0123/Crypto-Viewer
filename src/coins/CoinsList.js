@@ -3,7 +3,7 @@ import { Link} from 'react-router-dom'
 import './coin.css'
 import LikeButton from '../likeBtn/LikeButton'
 
-const CoinsList = ({filteredCoins, handleChange, toggleValueChange, form}) => {
+const CoinsList = ({filteredCoins, handleChange}) => {
    let coins = filteredCoins.map(coin => {
         return ( 
         <div className='coinDiv'>
@@ -21,9 +21,10 @@ const CoinsList = ({filteredCoins, handleChange, toggleValueChange, form}) => {
       </div>
         )
     })    
-  return (
-    <div>
-        <input onChange={handleChange} type="Search" name="search" placeholder='search'  />
+    return (
+      <div>
+      
+        <input onChange={handleChange} type="Search" name="search" placeholder='search' className='test-input' />
         {coins}
     </div>
   )

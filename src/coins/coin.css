@@ -60,4 +60,18 @@ h4{
     display: flex;
     justify-content: center;
 }
+input {
+    margin-top: 1rem;
+}
 
+
+.coinChart {
+    border-radius: 8px;
+}
+
+.bootyP{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+}
