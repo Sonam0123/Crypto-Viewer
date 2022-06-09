@@ -9,8 +9,12 @@
 ---
 ## Installation instructions
 Clone the repo and the app should be able to run from the index.html in the browser.
+
 ---
 ## Approach
+
+The main approach for this game was using an API
+
 The main approach for this game was using an API from Open Trivia Database to get questions and answers for the categories. The trivia also had different categories to choose from and the number of questions to answer.
 ---
 ## Technologies and languages used :
