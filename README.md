@@ -18,7 +18,7 @@ Clone the repo and the app should be able to run from the index.html in the brow
 The main approach for this website was using an API and grabbing the data using axios then rendering that data on the webpage implementing them on the JSX. I also used <a href="https://purecss.io/">Pure CSS</a> library to create a dropdown menu that links to several different websites for more information on cryptocurrencies.
 
 ---
-## Technologies and languages used :
+## Technologies and languages used 
 
 <ul>
   <li>JavaScript </li>
@@ -26,6 +26,5 @@ The main approach for this website was using an API and grabbing the data using 
   <li>API</li>
   <li>ReactJS </li>
 <ul>
-<hr>
-
+---
 
