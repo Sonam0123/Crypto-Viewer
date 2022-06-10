@@ -1,7 +1,7 @@
 # Crypto Viewer -React Project
 ---
 
-/ project Link / is a react app website that makes it easy for users to view crypto datas. Most of my datas are retrieved from <a href="https://www.coingecko.com/">Coin-Gecko.</a>
+<a href="https://crypto-viewer-sonam.netlify.app">Crypto Viewer </a> is a react app website that makes it easy for users to view crypto datas. Most of my datas are retrieved from <a href="https://www.coingecko.com/">Coin-Gecko.</a>
 
 ![Screen Shot 2022-06-09 at 11 36 08 AM](https://user-images.githubusercontent.com/101905331/172888785-59a47aef-11d2-44c0-96ca-80ad4a2396a2.png)
 
