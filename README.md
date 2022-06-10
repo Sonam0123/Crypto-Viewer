@@ -56,4 +56,6 @@ Another hurdle, which was minor, I faced was creating a showpage that displays a
   
 ---
 
-I would like to credit Brian Design on youtube for the search and filter functionality. 
+I would like to credit Brian Design on youtube for the search input functionality.
+---
+Go back to my <a href='https://github.com/Sonam0123'>github</a>
